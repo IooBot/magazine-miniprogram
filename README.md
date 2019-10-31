@@ -1,4 +1,4 @@
-# League
+# magazine-miniprogram
 ## local db for dev.
 cd mock
 mock -e magazine.edn
