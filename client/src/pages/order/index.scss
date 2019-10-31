@@ -1,0 +1,22 @@
+.order-page {
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  .toggleType {
+    background-color: #fff;
+    .item {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: inline-block;
+      width: 50%;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 200;
+      color: #666;
+
+      &.active {
+        color: #ec5d75;
+        font-weight: 400;
+      }
+    }
+  }
+}

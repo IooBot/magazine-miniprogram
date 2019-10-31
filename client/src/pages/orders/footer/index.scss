@@ -1,0 +1,36 @@
+@import "../../../styles/theme.scss";
+
+.orders-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  background: #fdfbfb;
+  font-weight: 500;
+  text-align: right;
+  border-top: 1px solid #f5f5f9;
+  z-index: 3;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.orders-footer__amount {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+
+  &-txt {
+    color: $primary-color;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    padding-left: 20px;
+  }
+}
+
+.orders-footer__btn {
+  width: 226px;
+}

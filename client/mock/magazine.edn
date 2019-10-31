@@ -1,0 +1,475 @@
+{:area
+ [{:id "安徽省-合肥市-蜀山区", :province "安徽省", :city "合肥市", :district "蜀山区"}
+  {:id "安徽省-合肥市-高新区", :province "安徽省", :city "合肥市", :district "高新区"}
+  {:id "安徽省-合肥市-瑶海区", :province "安徽省", :city "合肥市", :district "瑶海区"}
+  {:id "安徽省-合肥市-包河区", :province "安徽省", :city "合肥市", :district "包河区"}
+  {:id "安徽省-合肥市-经开区", :province "安徽省", :city "合肥市", :district "经开区"}
+  {:id "安徽省-合肥市-新站区", :province "安徽省", :city "合肥市", :district "新站区"}
+  {:id "安徽省-合肥市-庐阳区", :province "安徽省", :city "合肥市", :district "庐阳区"}
+  {:id "安徽省-合肥市-肥西县", :province "安徽省", :city "合肥市", :district "肥西县"}
+  {:id "安徽省-芜湖市-弋江区", :province "安徽省", :city "芜湖市", :district "弋江区"}
+  {:id "安徽省-芜湖市-镜湖区", :province "安徽省", :city "芜湖市", :district "镜湖区"}
+  {:id "安徽省-芜湖市-三山区", :province "安徽省", :city "芜湖市", :district "三山区"}
+  {:id "安徽省-芜湖市-芜湖县", :province "安徽省", :city "芜湖市", :district "芜湖县"}
+  {:id "江苏省-南京市-玄武区", :province "江苏省", :city "南京市", :district "玄武区"}
+  {:id "江苏省-南京市-秦淮区", :province "江苏省", :city "南京市", :district "秦淮区"}
+  {:id "江苏省-南京市-鼓楼区", :province "江苏省", :city "南京市", :district "鼓楼区"}
+  {:id "江苏省-苏州市-吴中区", :province "江苏省", :city "苏州市", :district "吴中区"}
+  {:id "江苏省-苏州市-姑苏区", :province "江苏省", :city "苏州市", :district "姑苏区"}
+  ],
+ :school
+ [{:id "安徽省-合肥市-蜀山区-西园小学本部"
+   :name "西园小学本部",
+   :area_id "安徽省-合肥市-蜀山区",
+   :address "长江路30号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-蜀山区-凤凰城小学"
+   :name "凤凰城小学",
+   :area_id "安徽省-合肥市-蜀山区",
+   :address "青阳路30号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-包河区-56中学"
+   :name "56中学",
+   :area_id "安徽省-合肥市-包河区",
+   :address "包河区",
+   :status "1"
+   :type "中学"}
+  {:id "安徽省-合肥市-包河区-外国语实验学校"
+   :name "外国语实验学校",
+   :area_id "安徽省-合肥市-包河区",
+   :address "包河路40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-包河区-青年路小学银杏苑"
+   :name "青年路小学银杏苑",
+   :area_id "安徽省-合肥市-包河区",
+   :address "长江路40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-瑶海区-郎溪路小学"
+   :name "郎溪路小学",
+   :area_id "安徽省-合肥市-瑶海区",
+   :address "瑶海路10号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-瑶海区-育英中学"
+   :name "育英中学",
+   :area_id "安徽省-合肥市-瑶海区",
+   :address "瑶海路10号",
+   :status "1"
+   :type "中学"}
+  {:id "安徽省-合肥市-经开区-南艳小学南湖春城校区"
+   :name "南艳小学南湖春城校区",
+   :area_id "安徽省-合肥市-经开区",
+   :address "长江路40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-经开区-南艳小学本部"
+   :name "南艳小学本部",
+   :area_id "安徽省-合肥市-经开区",
+   :address "长江路40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-经开区-72中学"
+   :name "72中学",
+   :area_id "安徽省-合肥市-经开区",
+   :address "长江路40号",
+   :status "1"
+   :type "中学"}
+  {:id "安徽省-合肥市-经开区-168玫瑰园中学"
+   :name "168玫瑰园中学",
+   :area_id "安徽省-合肥市-经开区",
+   :address "长江路40号",
+   :status "1"
+   :type "中学"}
+  {:id "安徽省-合肥市-新站区-合肥市伦先小学"
+   :name "合肥市伦先小学",
+   :area_id "安徽省-合肥市-新站区",
+   :address "长江路40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-新站区-关井小学"
+   :name "关井小学",
+   :area_id "安徽省-合肥市-新站区",
+   :address "长江路40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-高新区-桂花园小学东区"
+   :name "桂花园小学东区",
+   :area_id "安徽省-合肥市-高新区",
+   :address "创新大道40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-高新区-梦园小学复兴家园"
+   :name "梦园小学复兴家园",
+   :area_id "安徽省-合肥市-高新区",
+   :address "创新大道40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-高新区-梦园小学"
+   :name "梦园小学",
+   :area_id "安徽省-合肥市-高新区",
+   :address "创新大道40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-高新区-62中学"
+   :name "62中学",
+   :area_id "安徽省-合肥市-高新区",
+   :address "创新大道40号",
+   :status "1"
+   :type "中学"}
+  {:id "安徽省-合肥市-高新区-梦园中学"
+   :name "梦园中学",
+   :area_id "安徽省-合肥市-高新区",
+   :address "创新大道40号",
+   :status "1"
+   :type "中学"}
+  {:id "安徽省-合肥市-高新区-光华学校"
+   :name "光华学校",
+   :area_id "安徽省-合肥市-高新区",
+   :address "创新大道40号",
+   :status "1"
+   :type "中学"}
+  {:id "安徽省-合肥市-庐阳区-海棠花园小学"
+   :name "海棠花园小学",
+   :area_id "安徽省-合肥市-庐阳区",
+   :address "创新大道40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-庐阳区-02"
+   :name "大杨中心校",
+   :area_id "安徽省-合肥市-庐阳区",
+   :address "创新大道40号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-肥西县-01"
+   :name "肥西丽景小学",
+   :area_id "安徽省-合肥市-肥西县",
+   :address "瑶海路10号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-肥西县-02"
+   :name "肥西实验小学",
+   :area_id "安徽省-合肥市-肥西县",
+   :address "瑶海路10号",
+   :status "1"
+   :type "小学"}
+  {:id "安徽省-合肥市-肥西县-03"
+   :name "肥西大地中学",
+   :area_id "安徽省-合肥市-肥西县",
+   :address "瑶海路10号",
+   :status "1"
+   :type "中学"}
+  {:id "安徽省-合肥市-肥西县-04"
+   :name "上派初级中学",
+   :area_id "安徽省-合肥市-肥西县",
+   :address "瑶海路10号",
+   :status "1"
+   :type "中学"}
+  ],
+ :slideshow
+ [{:id "1",
+   :briefIntro "图一轮播图的简介",
+   :imgUrl "http://qqcdn.snbl.com.cn/show1.jpg"
+   }
+  {:id "2",
+   :briefIntro "图二轮播图的简介",
+   :imgUrl "http://qqcdn.snbl.com.cn/show2.jpg"
+   }
+  {:id "3",
+   :briefIntro "图三轮播图的简介",
+   :imgUrl "http://qqcdn.snbl.com.cn/show3.jpg"
+   }
+  ],
+ :magazine
+ [{:id "1",
+   :suitableGrade ["1" "2" "3"],
+   :picture "http://qqcdn.snbl.com.cn/1.jpg",
+   :magazineIntro "适合小学低年级学生",
+   :unitPrice 7.5,
+   :name "小学低年级版",
+   :enableSub [2019, 2020, 2021],
+   :specList ["全年" "上半年" "下半年"],
+   :status "1"
+   }
+  {:id "2",
+   :suitableGrade ["4" "5" "6"],
+   :picture "http://qqcdn.snbl.com.cn/2.jpg",
+   :magazineIntro "适合小学中高年级学生",
+   :unitPrice 7.5,
+   :name "小学中高年级版",
+   :enableSub [2019, 2020, 2021],
+   :specList ["全年" "上半年" "下半年"],
+   :status "1"
+   }
+  {:id "3",
+   :suitableGrade ["4" "5" "6" "7" "8" "9"],
+   :picture "http://qqcdn.snbl.com.cn/3.jpg",
+   :magazineIntro "适合小学中高年级学生、初中生",
+   :unitPrice 7.5,
+   :name "阅读与写作版",
+   :enableSub [2019, 2020, 2021],
+   :specList ["全年" "上半年" "下半年"],
+   :status "1"
+   }
+  {:id "4",
+   :magazineIntro "适合初中生",
+   :name "初中版",
+   :picture "http://qqcdn.snbl.com.cn/4.jpg",
+   :suitableGrade [7 8 9],
+   :unitPrice 7.5,
+   :enableSub [2019, 2020, 2021],
+   :specList ["全年" "上半年" "下半年"],
+   :status "1"
+   }
+  ],
+ :user
+ [{:id "1",
+   :openid "o2fcFv-h_CFKkNdEYgNkNp0Jt5TA",
+   :username "张小",
+   :telephone "18726202232",
+   :createdAt "2019-07-29 13:27:32",
+   :updatedAt ""
+   }
+  {:id "2",
+   :openid "o2fcFvxE5nCQSb4BBHaB4kXcikSE",
+   :username "张晓",
+   :telephone "17710648087",
+   :createdAt "2019-07-29 13:27:32",
+   :updatedAt ""
+   }
+  ],
+ :cart
+ [{:id "1",
+   :user_id "1",
+   :magazine_id "1",
+   :count 1,
+   :subYear 2020,
+   :subMonthCount 6,
+   :subMonth [1 2 3 4 5 6],
+   :spec "上半年",
+   :createdAt "2019-07-29 12:23:30",
+   :updatedAt ""
+   }
+  {:id "2",
+   :user_id "2",
+   :magazine_id "2",
+   :count 2,
+   :subYear 2020,
+   :subMonthCount 6,
+   :subMonth [7 8 9 10 11 12],
+   :spec "下半年",
+   :createdAt "2019-07-29 13:33:30",
+   :updatedAt "2019-07-29 14:13:12"
+   }
+  {:id "3",
+   :user_id "2",
+   :magazine_id "3",
+   :count 1,
+   :subYear 2020,
+   :subMonthCount 12,
+   :subMonth [1 2 3 4 5 6 7 8 9 10 11 12],
+   :spec "全年",
+   :createdAt "2019-07-29 13:27:32",
+   :updatedAt ""
+   }
+  ]
+ :address
+ [{:id "address_1",
+   :user_id "1",
+   :username "叶子",
+   :telephone "18726202125",
+   :isDefault true,
+   :province "安徽省"
+   :city "合肥市",
+   :district "庐阳区",
+   :school "海棠花园小学",
+   :schoolType "小学",
+   :grade 6,
+   :classValue 14,
+   :address "安徽省合肥市庐阳区海棠花园小学",
+   :createdAt "2019-03-20 18:30:05",
+   :updatedAt ""
+   },
+  {:id "address_2",
+   :user_id "2",
+   :username "张晓",
+   :telephone "17710648087",
+   :isDefault true,
+   :province "安徽省"
+   :city "合肥市",
+   :district "经开区",
+   :school "168玫瑰园中学",
+   :schoolType "中学",
+   :grade 8,
+   :classValue 7,
+   :address "安徽省合肥市经开区168玫瑰园中学",
+   :createdAt "2019-03-20 18:30:05",
+   :updatedAt ""
+   }
+  ]
+ :orderAddress
+ [{:id "orderAddress_1",
+   :user_id "1",
+   :username "叶子",
+   :telephone "18726202125",
+   :province "安徽省"
+   :city "合肥市",
+   :district "庐阳区",
+   :school "海棠花园小学",
+   :schoolType "小学",
+   :grade 6,
+   :classValue 14,
+   :address "安徽省合肥市庐阳区海棠花园小学",
+   :createdAt "2019-03-20 18:30:05",
+   :updatedAt ""
+   },
+  {:id "orderAddress_2",
+   :user_id "2",
+   :username "张晓",
+   :telephone "17710648087",
+   :province "安徽省"
+   :city "合肥市",
+   :district "经开区",
+   :school "168玫瑰园中学",
+   :schoolType "中学",
+   :grade 8,
+   :classValue 7,
+   :address "安徽省合肥市经开区168玫瑰园中学",
+   :createdAt "2019-03-20 18:30:05",
+   :updatedAt ""
+   }
+  ]
+ :order
+ [{:id "1",
+   :user_id "1",
+   :orderAddress_id "orderAddress_1"
+   :orderStatus "finishPay",
+   :orderProductCount 1,
+   :totalPrice 90.0,
+   :expressStatus "已发货",
+   :expressContent "可更新查看发货的详细信息",
+   :expressNumber "12345",
+   :createdAt "2019-07-26 11:13:49",
+   :updatedAt "2019-07-26 11:23:30"
+   }
+  {:id "2",
+   :user_id "1",
+   :orderAddress_id "orderAddress_1"
+   :orderStatus "waitPay",
+   :orderProductCount 1,
+   :totalPrice 45.0,
+   :expressStatus "",
+   :expressContent "",
+   :expressNumber "",
+   :createdAt "2019-07-26 11:32:01",
+   :updatedAt ""
+   }
+  {:id "3",
+   :user_id "2",
+   :orderAddress_id "orderAddress_2"
+   :orderStatus "finishPay",
+   :orderProductCount 1,
+   :totalPrice 90.0,
+   :expressStatus "已发货",
+   :expressContent "可更新查看发货的详细信息",
+   :expressNumber "",
+   :createdAt "2019-07-26 11:32:01",
+   :updatedAt ""
+   }
+  ],
+ :orderProduct
+ [{:id "orderProduct_1",
+   :user_id "1",
+   :order_id "1",
+   :magazine_id "1",
+   :name "小学低年级版",
+   :img "http://qqcdn.snbl.com.cn/1.jpg",
+   :price 7.5,
+   :subCount 1,
+   :subMonthCount 6,
+   :subMonth [1 2 3 4 5 6],
+   :spec "上半年",
+   :subYear 2020,
+   :unitPay 45.0,
+   :createdAt "2019-07-26 11:13:49",
+   :updatedAt ""
+   }
+  {:id "orderProduct_2",
+   :user_id "1",
+   :order_id "1",
+   :magazine_id "2" ,
+   :name "小学中高年级版",
+   :img "http://qqcdn.snbl.com.cn/2.jpg",
+   :price 7.5,
+   :subCount 1,
+   :subMonthCount 6,
+   :subMonth [1 2 3 4 5 6],
+   :spec "上半年",
+   :subYear 2020,
+   :unitPay 45.0,
+   :createdAt "2019-07-26 11:13:49",
+   :updatedAt ""
+   }
+  {:id "orderProduct_3",
+   :user_id "1",
+   :order_id "2",
+   :magazine_id "3" ,
+   :name "阅读与写作版",
+   :img "http://qqcdn.snbl.com.cn/3.jpg",
+   :price 7.5,
+   :subCount 1,
+   :subMonthCount 6,
+   :subMonth [1 2 3 4 5 6],
+   :spec "上半年",
+   :subYear 2020,
+   :unitPay 45.0,
+   :createdAt "2019-07-28 10:33:42",
+   :updatedAt ""
+   }
+  {:id "orderProduct_4",
+   :user_id "2",
+   :order_id "3",
+   :magazine_id "4" ,
+   :name "初中版",
+   :img "http://qqcdn.snbl.com.cn/4.jpg",
+   :price 7.5,
+   :subCount 1,
+   :subMonthCount 12,
+   :subMonth [1 2 3 4 5 6 7 8 9 10 11 12],
+   :spec "全年",
+   :subYear 2020,
+   :unitPay 90.0,
+   :createdAt "2019-07-29 12:01:49",
+   :updatedAt ""
+   }
+   ]
+ :payRecord
+ [{:transaction_id "4200000192201811221204586162",
+   :openid "1",
+   :time "20190726111349",
+   :trade_no "1",
+   :total_fee "4500",
+   :cash_fee "4500"}
+  {:transaction_id "4200000199201811221524298502",
+   :openid "1",
+   :time "20190726112330",
+   :trade_no "2",
+   :total_fee "9000",
+   :cash_fee "9000"},
+  {:transaction_id "4200000192201811221204586112",
+   :openid "2",
+   :time "20190726111349",
+   :trade_no "3",
+   :total_fee "4500",
+   :cash_fee "4500"},
+  {:transaction_id "4200000192201811221204586113",
+   :openid "2",
+   :time "20190726111349",
+   :trade_no "4",
+   :total_fee "4500",
+   :cash_fee "4500"}
+  ]
+ }

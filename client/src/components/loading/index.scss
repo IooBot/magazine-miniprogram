@@ -1,0 +1,13 @@
+.comp-loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //height: 120px;
+  height: 100%;
+}
+
+.comp-loading__img {
+  width: 100px;
+  height: 100px;
+}

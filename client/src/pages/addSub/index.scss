@@ -1,0 +1,58 @@
+@import "../../styles/theme.scss";
+@import "../../styles/mixin.scss";
+
+.addSub {
+  position: relative;
+  height: 100%;
+  background-color: $background-color;
+}
+
+.addSub__tabBar {
+  padding: 20px 30px;
+  color: $color-brand;
+}
+
+.addSub__wrap {
+
+  &-list{
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-right: 30px;
+    margin-left: 30px;
+    line-height: 60px;
+    border-bottom: 2px solid #f0f0f0;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-txt {
+
+      &-sub {
+        font-size: 28px;
+        color: $text-color-lighter
+      }
+
+      &-sum {
+        color: $color-brand
+      }
+    }
+
+    &-total {
+      justify-content: flex-end;
+
+      &-price {
+        padding-left: 15px;
+        color: $color-brand;
+      }
+    }
+  }
+}
+
+.addSub__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}

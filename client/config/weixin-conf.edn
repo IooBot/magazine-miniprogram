@@ -1,0 +1,33 @@
+{
+ ;:appID "wx44522e1d4f8e07ee"                    ;������Ϭ����
+ ;:appsecret "6127daf82bcc424fee68aab2b2c9324b"
+; :appID "wxb33de96952971de8"                    ;С�������
+; :appsecret "eb11b5676a8bda8cd10834849cb006c2"
+;  :appID "wxbb658443e0954508"                     ; �����޸�
+;  :appsecret "cf6c194e2f56fa86c327f01cae6b3132"   ; �����޸�
+  :appID "wx5f232ff6f3bf5cbf"
+  :appsecret "0d685af29fd99bbbb4c82481eba81127"
+ :env "mock-fc-test"                             ; �����޸�
+ :url
+ {
+  :import "https://api.weixin.qq.com/tcb/databasemigrateimport?access_token=%s"
+  :export "https://api.weixin.qq.com/tcb/databasemigrateexport?access_token=%s"
+  :add-collection "https://api.weixin.qq.com/tcb/databasecollectionadd?access_token=%s"
+  :delete-collection "https://api.weixin.qq.com/tcb/databasecollectiondelete?access_token=%s"
+  :insert "https://api.weixin.qq.com/tcb/databaseadd?access_token=%s"
+  :delete "https://api.weixin.qq.com/tcb/databasedelete?access_token=%s"
+  :update "https://api.weixin.qq.com/tcb/databaseupdate?access_token=%s"
+  :query  "https://api.weixin.qq.com/tcb/databasequery?access_token=%s"
+  :count  "https://api.weixin.qq.com/tcb/databasecount?access_token=%s"
+  }
+ :fmt
+ {
+  :find-one  "db.collection(\"%s\").where(%s).limit(1).get()"
+  :find-many "db.collection(\"%s\").where(%s).get()"
+  :proc-query "db.collection(\"%s\").where(%s)"
+  :insert "db.collection(\"%s\").add(%s)"
+  :delete "db.collection(\"%s\").where(%s).remove()"
+  :update "db.collection(\"%s\").where(%s).update(%s)"
+  :count  "db.collection(\"%s\").where(%s).count()"
+  }
+ }

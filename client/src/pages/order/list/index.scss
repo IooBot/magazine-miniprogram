@@ -1,0 +1,84 @@
+@import "../../../styles/theme.scss";
+
+.orderList-wrap{
+  height: 100%;
+}
+
+.order-empty {
+  margin-top: 330px;
+  height: 178px;
+  background: url('http://static-r.msparis.com/uploads/9/6/968b64edb282160e7da5dd184154bbe7.png') no-repeat center;
+  background-size: contain;
+
+  &.card {
+    margin-top: 410px;
+  }
+}
+
+.order-card {
+  margin-top: 20px;
+  background-color: white;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.order-card-top {
+  padding: 30px 20px;
+  border-bottom: 2px solid #F3F3F3;
+}
+
+.order-card-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  line-height: 70px;
+  text-align: right;
+}
+
+.order-card-count {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.order-card-pay {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 500;
+  color: black;
+  margin-right: 20px;
+}
+
+.order-address__item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 30px;
+  width: 100%;
+
+  &-detail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  &-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &-name {
+    padding-left: 10px;
+  }
+
+  &-tel {
+    padding-left: 10px;
+    line-height: 50px;
+  }
+
+  &-txt {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}

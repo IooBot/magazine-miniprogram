@@ -1,0 +1,18 @@
+client/dist/
+deploy_versions/
+client/.temp/
+client/.rn_temp/
+client/node_modules/
+.DS_Store
+.idea
+yarn.lock
+package-lock.json
+dist/
+
+# mock data
+client/mock/data
+client/mock/schema
+client/mock/temp
+*.jar
+draft
+node_modules

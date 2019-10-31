@@ -1,0 +1,117 @@
+@import './mixin';
+
+page,
+body {
+  font-size: 32px;
+  height: 100%;
+  background-color: $bg-color-base;
+  color: $color-dark;
+  box-sizing: border-box;
+}
+
+/* weapp */
+page {
+  height: 100%;
+}
+
+view,
+text,
+scroll-view {
+  box-sizing: border-box;
+}
+
+button {
+  &:after {
+    display: none;
+  }
+}
+
+/* h5 */
+/*postcss-pxtransform rn eject enable*/
+div {
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+}
+
+.taro-text {
+  box-sizing: border-box;
+}
+
+.taro-tabbar__panel,
+.taro_router {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.taro_page {
+  flex: 1;
+}
+/*postcss-pxtransform rn eject disable*/
+
+@media screen and (min-width: 500px) {
+  html,
+  body {
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
+.taro-img,
+image {
+  width: 100%;
+}
+
+button {
+  outline: none;
+}
+
+//******常用类******/
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.position-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}

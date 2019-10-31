@@ -1,0 +1,56 @@
+@import "../../../styles/theme.scss";
+
+.address-edit-wrap {
+  height: 100%;
+  background-color: $background-color;
+}
+
+.at-input__title {
+  width: 220px!important;
+}
+
+.at-switch__title {
+  font-size: 32px!important;
+}
+
+.address-edit__region {
+  display: flex;
+  flex-direction: row;
+  position:relative;
+  padding: 24px 0;
+  margin-left:32px;
+  margin-bottom:1px;
+
+  &-title {
+    margin-right:16px;
+    width: 220px;
+    font-size:32px;
+    line-height:1.5;
+    vertical-align:middle;
+    text-align:left;
+  }
+
+  &-item {
+    color:#333;
+    font-size:32px;
+    line-height:1.5;
+  }
+}
+
+.placeholder-text {
+  color: gray;
+}
+
+.address-add {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  border-top: 2px solid #F3F3F3;
+  height: 100px;
+  line-height: 100px;
+  box-shadow: 6px -2px 2px #ebedf0;
+  background-color: #f44;
+  color: white;
+}

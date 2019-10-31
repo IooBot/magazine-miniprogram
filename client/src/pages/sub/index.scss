@@ -1,0 +1,160 @@
+@import "../../styles/theme.scss";
+@import "../../styles/mixin.scss";
+
+.sub {
+  position: relative;
+}
+
+.sub__tabBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 9;
+  height: 80px;
+  line-height: 80px;
+
+  .left{
+    padding-left: 30px;
+  }
+
+  .right {
+    padding-right: 30px;
+  }
+
+  &-icon {
+
+    &--right {
+      float: right;
+    }
+  }
+}
+
+.sub__wrap {
+  padding: 82px 0 0;
+  background-color: $background-color;
+}
+
+.sub-recommend {
+  margin-top: 20px;
+  background: #ffffff;
+}
+
+.sub-recommend__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+
+  &-txt {
+    color: $color-brand-light;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: bold;
+  }
+}
+
+.sub-recommend__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 15px;
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 30px;
+    width: 50%;
+
+    &-desc {
+      padding: 0 12px;
+      width: 100%;
+      height: 70px;
+      line-height: 70px;
+      color: #9e8962;
+      font-size: 24px;
+      background: #f0ebe2;
+      @include ellipsis;
+    }
+
+    &-img {
+      width: 100%;
+      height: 400px;
+      background: #f4f4f4;
+      border-radius: 4px;
+    }
+
+    &-info {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-name {
+      color: $text-color;
+      font-size: 28px;
+      line-height: 40px;
+      @include ellipsis;
+    }
+
+    &-price-wrap {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      line-height: 80px;
+    }
+
+    &-price {
+      color: $color-brand-dark;
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    &-price--origin {
+      margin-left: 14px;
+      color: $text-color-lighter;
+      font-size: 30px;
+      font-weight: 200;
+      line-height: 48px;
+      text-decoration: line-through;
+      text-decoration-color: $text-color-lighter;
+    }
+
+    &--icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $color-brand-dark;
+    }
+
+    &-commend {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 10px;
+      padding: 0 10px;
+      height: 70px;
+      border-radius: 35px;
+      background: #f3f3f3;
+
+      &-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+      }
+
+      &-txt {
+        flex: 1;
+        margin-left: 10px;
+        color: $text-color-lighter;
+        font-size: 24px;
+        line-height: 30px;
+        @include lamp-clamp(2);
+      }
+    }
+  }
+}
